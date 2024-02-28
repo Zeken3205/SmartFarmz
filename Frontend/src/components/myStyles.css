@@ -1,0 +1,347 @@
+/* Style the container to set its background color */
+.green-stripe-container {
+    background-color: #CFE1B9;
+    text-align: center;
+    align-items: center;
+    position: relative;
+}
+
+.merryweatherfont {
+    font-family: 'Merriweather', serif;
+}
+
+.ubuntufont {
+    font-family: 'Ubuntu', serif;
+}
+
+.FFC47E {
+    background-color: #FFC47E;
+}
+
+.FFE382 {
+    background-color: #FFE382;
+}
+
+.FFF78A {
+    background-color: #FFF78A;
+}
+
+.text-white {
+    color: white;
+}
+
+.greenbg {
+    background-color: #C1DABB;
+}
+
+.farming-animation-wrapper svg {
+    width: 600px !important;
+    /* adjust as needed */
+    height: auto !important;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-right: 20px;
+    padding-top: 20px
+}
+
+.white-stripe-container {
+    background-color: #E9F5DB;
+    /* Set your desired background color */
+    text-align: center;
+    /* Center the content within the container, if needed */
+    position: relative;
+    display: flex;
+    align-items: center;
+    /* Vertically align content in the middle */
+}
+
+.color4-stripe-container {
+    background-color: #97A97C;
+    /* Set your desired background color */
+    text-align: center;
+    /* Center the content within the container, if needed */
+    position: relative;
+    display: flex;
+    align-items: center;
+    /* Vertically align content in the middle */
+}
+
+.fruitbasketanimation-wrapper {
+    width: 450px !important;
+    /* adjust as needed */
+    height: auto !important;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 60px;
+    /* Add some right margin to separate it from the text */
+}
+
+.pepermint-stripe-container {
+    background-color: #B5C99A;
+    /* Set your desired background color */
+    text-align: center;
+    /* Center the content within the container, if needed */
+}
+
+.orange-stripe-container {
+    background-color: #FC9A0D;
+    /* Set your desired background color */
+    text-align: center;
+    /* Center the content within the container, if needed */
+}
+
+.android-green-stripe-container {
+    background-color: #87986A;
+    /* Set your desired background color */
+    text-align: center;
+    /* Center the content within the container, if needed */
+}
+
+.blurred {
+    filter: blur(5px);
+    /* You can adjust the blur intensity as needed */
+}
+
+.card {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    perspective: 1000px;
+    box-shadow: 0 0 0 5px #ffffff80;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card svg {
+    width: 48px;
+    fill: #333;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+}
+
+.card__content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+    transform: rotateX(-90deg);
+    transform-origin: bottom;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card:hover .card__content {
+    transform: rotateX(0deg);
+}
+
+.card__title {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+    font-weight: 700;
+}
+
+.card:hover svg {
+    scale: 0;
+}
+
+.card__description {
+    margin: 10px 0 0;
+    font-size: 12px !important;
+    color: #777;
+    line-height: 1.4;
+}
+
+.feed-form {
+    margin-top: 36px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.feed-form input {
+    height: 54px;
+    border-radius: 5px;
+    background: white;
+    margin-bottom: 15px;
+    border: none;
+    padding: 0 20px;
+    font-weight: 300;
+    font-size: 14px;
+    color: #4B4B4B;
+}
+
+.feed-form select {
+    height: 54px;
+    border-radius: 5px;
+    background: white;
+    margin-bottom: 15px;
+    border: none;
+    padding: 0 20px;
+    font-weight: 300;
+    font-size: 14px;
+    color: #4B4B4B;
+
+}
+
+.button_submit:hover,
+.feed-form input:hover {
+    transform: scale(1.009);
+    box-shadow: 0px 0px 3px 0px #212529;
+}
+
+.button_submit {
+    width: 100%;
+    height: 54px;
+    font-size: 14px;
+    color: white;
+    background: red;
+    border-radius: 5px;
+    border: none;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #ffffff;
+    padding: 30px;
+    width: 450px;
+    border-radius: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+::placeholder {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.form button {
+    align-self: flex-end;
+}
+
+.flex-column>label {
+    color: #151717;
+    font-weight: 600;
+}
+
+.inputForm {
+    border: 1.5px solid #ecedec;
+    border-radius: 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    transition: 0.2s ease-in-out;
+}
+
+.input {
+    margin-left: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 85%;
+    height: 100%;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.inputForm:focus-within {
+    border: 1.5px solid #2d79f3;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.flex-row>div>label {
+    font-size: 14px;
+    color: black;
+    font-weight: 400;
+}
+
+.span {
+    font-size: 14px;
+    margin-left: 5px;
+    color: #2d79f3;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.button-submit {
+    margin: 20px 0 10px 0;
+    background-color: #151717;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 10px;
+    height: 50px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.button-submit:hover {
+    background-color: #252727;
+}
+
+.p {
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.btn {
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    gap: 10px;
+    border: 1px solid #ededef;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.btn:hover {
+    border: 1px solid #2d79f3;
+    ;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.input-container p {
+    margin-right: 10px;
+    font-size: 14px;
+    color: #333;
+    width: 100px;
+}
